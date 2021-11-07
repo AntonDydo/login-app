@@ -13,3 +13,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.btn-login,
+.btn-logout {
+  position: absolute;
+  width: 100px;
+  font-size: 16pt;
+  border-radius: 15px;
+  left: 53%;
+  top: 10px;
+  border: 2px solid black;
+}
+.btn-logout {
+  left: 40%;
+}
+.btn-bro,
+.btn-sis {
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  width: 300px;
+  height: 150px;
+  border-radius: 15px;
+}
+.btn-bro {
+  left: 20%;
+}
+.last-message {
+  position: absolute;
+  cursor: pointer;
+  top: 40%;
+  left: 42%;
+}
+.send-by {
+  font-style: italic;
+  color: rgb(173, 173, 173);
+}
+.total {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+}
+.total-text {
+  font-size: 16pt;
+}
+.last-message-text {
+  font-size: 16pt;
+}
